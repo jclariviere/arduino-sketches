@@ -8,13 +8,13 @@
     by Jean-Christophe Lariviere
 */
 
-#define NUM_SEGMENTS 8
-#define NUM_DIGITS 4
-#define MAX_NUMBER 9999
+const int NUM_SEGMENTS = 8;
+const int NUM_DIGITS = 4;
+const int MAX_NUMBER = 9999;
 
 // Since the display is multiplexed, we need to turn the digits on and off very quickly.
 // This defines the "on" time of a digit before switching to the next (in milliseconds).
-#define DELAY_BETWEEN_DIGITS 3
+const int DELAY_BETWEEN_DIGITS = 3;
 
 // Change these to fit your setup
 int segPins[] = {12, 11, 10, 9, 8, 7, 6, 5};
